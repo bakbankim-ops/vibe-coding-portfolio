@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NOONA | 현재 상영</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <a class="logo" href="#top">NOONA</a>
+      <span class="nav-label">현재 상영</span>
+    </header>
+
+    <main id="top">
+      <section class="hero" id="hero" aria-label="추천 영화">
+        <div class="hero-content">
+          <p class="eyebrow">Now Playing</p>
+          <h1 id="hero-title">영화를 불러오는 중</h1>
+          <p id="hero-overview" class="overview"></p>
+        </div>
+      </section>
+
+      <section class="catalog" aria-labelledby="catalog-title">
+        <div class="catalog-head">
+          <h2 id="catalog-title">지금 극장에서</h2>
+          <div class="scroll-controls">
+            <button type="button" id="scroll-left" aria-label="이전 영화">‹</button>
+            <button type="button" id="scroll-right" aria-label="다음 영화">›</button>
+          </div>
+        </div>
+        <p id="status" class="status" role="status">상영 중인 영화를 불러오고 있습니다.</p>
+        <div id="movie-row" class="movie-row"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
