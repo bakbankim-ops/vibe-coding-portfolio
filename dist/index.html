@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Velocity — a racing-inspired creative portfolio." />
+    <title>Velocity — Racing Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <aside class="side-panel" aria-label="Introduction">
+        <nav class="top-nav">
+          <a class="brand" href="#top" aria-label="Velocity home"><span></span>velo.</a>
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu"><i></i><i></i></button>
+          <div class="menu" id="main-menu">
+            <a class="active" href="#top">Home</a><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a>
+          </div>
+        </nav>
+
+        <div class="intro" id="top">
+          <p class="eyebrow">01 / Creative athlete</p>
+          <h1>Marcus<br /><em>Räikkönen</em></h1>
+          <p class="intro-copy">Motion designer and endurance cyclist. I shape ideas that move people forward.</p>
+          <div class="intro-actions">
+            <a class="button primary" href="#contact">Let's talk <span>↗</span></a>
+            <a class="text-link" href="#work">View work <span>→</span></a>
+          </div>
+        </div>
+
+        <div class="dot-grid dot-grid-left" aria-hidden="true"></div>
+        <section class="services" id="work" aria-label="Services">
+          <article><span class="icon">⌁</span><b>Motion</b><small>Design systems</small></article>
+          <article><span class="icon">✣</span><b>Art direction</b><small>Digital stories</small></article>
+          <article><span class="icon">◈</span><b>Visual identity</b><small>For bold brands</small></article>
+          <article><span class="icon">↗</span><b>Strategy</b><small>Clarity first</small></article>
+        </section>
+      </aside>
+
+      <section class="content-panel">
+        <div class="hero-art" aria-label="Illustration of a happy athlete celebrating">
+          <div class="purple-shape"></div><div class="yellow-shape"></div><div class="blue-dot d1"></div><div class="blue-dot d2"></div><div class="blue-dot d3"></div>
+          <div class="athlete" aria-hidden="true"><div class="arm arm-left"></div><div class="arm arm-right"></div><div class="head"><div class="hair"></div><div class="glasses"></div></div><div class="torso"><span>VELO</span></div><div class="jeans"></div></div>
+          <p class="hero-label">EST. 2015<br />HELSINKI, FINLAND</p>
+        </div>
+
+        <section class="story" id="about">
+          <p class="eyebrow">02 / About the practice</p>
+          <h2>Better design.<br /><em>better experiences.</em></h2>
+          <p>From the first sketch to the final frame, I turn ambitious ideas into visual worlds with a pulse. Every project is built with curiosity, craft, and room for a little surprise.</p>
+          <div class="story-actions"><a class="button primary" href="#contact">My process <span>↗</span></a><a class="text-link" href="#work">Read more <span>→</span></a></div>
+          <div class="shape triangle" aria-hidden="true"></div>
+        </section>
+
+        <footer id="contact"><span>Available for selected projects</span><a href="mailto:hello@velocity.design">hello@velocity.design ↗</a></footer>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
